@@ -12,11 +12,10 @@ if($cantidad < 12)   {
 
 echo "<br/> <br/>";
 
-$edad = "20";
-
 ?>
 
 <?php
+$edad = "20";
 
 if($edad >= 18) {
     echo "puede votar";
@@ -24,10 +23,30 @@ if($edad >= 18) {
     echo "no puede votar";
 }
 
+echo "<br/> <br/>";
 ?>
 
 
 <!--  jercicio 2 -->
 
+<?php
+
+$años = "20";
+$nombre = "digo";
+
+if($años < 18) {
+    echo "no puede entrar a la discoteca <br/>";
+} else{
+    echo "puede entrar a la discoteca <br/>";
+} if($nombre == "mario" xor $nombre == "carlos") {
+    echo "puede entrar al VIP <br/>";
+} else{
+    echo "no puede entrar al VIP <br/>";
+}
 
 
+?>
+
+
+
+<!--  -->
