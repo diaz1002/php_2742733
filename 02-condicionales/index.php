@@ -49,4 +49,10 @@ if($años < 18) {
 
 
 
-<!--  -->
+<!-- ejercicio 3 -->
+
+<?php
+
+$old = "16";
+
+$velocidad = "30";
