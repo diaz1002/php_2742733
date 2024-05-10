@@ -56,3 +56,5 @@ if($años < 18) {
 $old = "16";
 
 $velocidad = "30";
+
+$statura = "20";
