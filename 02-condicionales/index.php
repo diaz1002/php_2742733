@@ -4,10 +4,6 @@
 
 $cantidad = "40";
 
-?>
-
-<?php
-
 if($cantidad < 12)   {
     echo "caja rapida";
 } else{
@@ -15,11 +11,6 @@ if($cantidad < 12)   {
 }
 
 echo "<br/> <br/>";
-?>
-
-
-
-<?php
 
 $edad = "20";
 
