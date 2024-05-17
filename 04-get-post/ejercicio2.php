@@ -5,11 +5,11 @@ $htrabajo = $_POST["htrabajo"];
 
 $precio = $_POST["precio"];
 
-$sueldo = $htrabajo * $precio;
+$sueldo = ($htrabajo * $precio);
 
 
 
-echo $htrabajo * $precio;
+echo "$sueldo";
 
 if ($sueldo >= 2200000)   {
     echo "Retencion de fuente";
@@ -38,7 +38,7 @@ if ($sueldo >= 2200000)   {
 <input id="htrabajo" type="text" placeholder="Horas de trabajo..." name="htrabajo">
 <br>
 <label for="precio" required>Precio</label>
-<input id="precio" type="text" placeholder="Precio de una hora de trabajo...">
+<input id="precio" type="text" placeholder="Precio de una hora de trabajo..." name="precio">
 <br>
 <button type="submit">Enviar</button>
     
