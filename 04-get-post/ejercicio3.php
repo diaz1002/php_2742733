@@ -41,7 +41,7 @@ else {
 <br>
 
 <label for="n2" required>Número 2</label>
-<input id="n2" type="text" placeholder="Número 2..." required name="n2">
+<input id="n2" type="text" placeholder="Número 2..." name="n2">
 
 <br>
 
