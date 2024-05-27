@@ -18,13 +18,14 @@ session_start();
 
 <body>
 
-    <?php if ($_SESSION) :   ?>
+    <?php if (isset ($_SESSION['usuarioRegistrado']) ) :  ?>
 
-        <h1>Bienvenidos <?php echo $_SESSION['nombre'];  ?> a tu pais <?php echo   $_SESSION['pais']; ?> </h1>
+        <h1>Bienvenido <?php echo $_SESSION['usuarioRegistrado']; ?> </h1>
+        
         <a href="./cerrar.php">Cerrar</a>
         <a href="./index.php">Home</a>
 
-    <?php else :   ?>
+    <?php else : ?>
 
         <h1>No has iniciado sesion</h1>
         <a href="./index.php">Iniciar sesion</a>
