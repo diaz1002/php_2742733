@@ -1,0 +1,52 @@
+.carta{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.carta2{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    align-items: center;
+}
+
+.us{
+    border-radius: 1rem;
+    border: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #9ee6e7 ;
+}
+
+.cr{
+    border-radius: 1rem;
+    border: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color:#9ee6e7 ;
+}
+
+.rg{
+    border-radius: 1rem;
+    border: 2px;
+}
+
+.in{
+    border-radius: 1rem;
+    border: 2px;
+}
+
+.im{
+    width: 150px;
+    
+}
+
+.ph{
+    display: flex;
+    justify-content: center;
+}
