@@ -1,0 +1,119 @@
+body{
+    background-image:url(./galeria/water-splash.jpg)
+}
+
+
+
+.but{
+    border-radius: 1rem;
+    border: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.rer{
+    border-radius: 1rem;
+    border: 2px;
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+}
+
+.user{
+    border-radius: 1rem;
+    border: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #9ee6e7 ;
+}
+
+.cor{
+    border-radius: 1rem;
+    border: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #9ee6e7 ;
+}
+
+.con{
+    border-radius: 1rem;
+    border: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #9ee6e7 ;
+}
+
+.letter{
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.card{
+    align-items: center;
+}
+
+
+.let{
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+.card{
+    align-items: center;
+}
+
+.use{
+    border-radius: 1rem;
+    border: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #9ee6e7 ;
+}
+
+.crt{
+    border-radius: 1rem;
+    border: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #9ee6e7 ;
+}
+
+.in1{
+    border-radius: 1rem;
+    border: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.rg1{
+    border-radius: 1rem;
+    border: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+
+.crr{
+
+     display: flex;
+    align-items: center;
+
+}
+
+.fotocurso{
+    display:flex; 
+    justify-content: center;
+    
+}
+
+ 
