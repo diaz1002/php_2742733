@@ -95,7 +95,10 @@ require('header.php');
           <td> <?php echo $item['Curso']  ?> </td>
           <td><?php echo $item['Descripción']  ?></td>
           <td><?php echo $item['Estudiantes']  ?></td>
-          <td>✏️Edit | 🗑️Delete</td>
+          <td class="d-flex gap-4">
+            <a class="text-success" href="Editar_curso.php id=<?php echo $item['id']?>"> <i class="bi bi-pencil-fill"></i></a>
+            <a class="text-danger" href="borrar_curso.php id=<?php echo $item['id']?>"> <i class="bi bi-trash-fill"></i></a>
+          </td>
 
 
         </tr>
@@ -104,7 +107,7 @@ require('header.php');
       <?php  } ?>
 
 
-    </tbody>
+    </body>
   </table>
 </div>
 
