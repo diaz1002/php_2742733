@@ -45,11 +45,11 @@ require('header.php');
           <input type="text" name="TituloCurso" id="TituloCurso" placeholder="AgregarCurso">
         </td>
         <td>
-          <label for="ImagenCurso">imagen del curso</label> <br>
+          <label for="ImagenCurso">Imagen del Curso</label> <br>
           <input type="file" name="ImagenCurso" id="ImagenCurso" placeholder="AgregarCurso">
         </td>
         <td>
-          <label for="DescripcionCurso">descripcion</label> <br>
+          <label for="DescripcionCurso">Descripción</label> <br>
           <input type="text" name="DescripcionCurso" id="DescripcionCurso" placeholder="AgregarCurso">
         </td>
         <td>
@@ -96,8 +96,8 @@ require('header.php');
           <td><?php echo $item['Descripción']  ?></td>
           <td><?php echo $item['Estudiantes']  ?></td>
           <td class="d-flex gap-4">
-            <a class="text-success" href="Editar_curso.php id=<?php echo $item['id']?>"> <i class="bi bi-pencil-fill"></i></a>
-            <a class="text-danger" href="borrar_curso.php id=<?php echo $item['id']?>"> <i class="bi bi-trash-fill"></i></a>
+            <a class="text-success" href="editar_curso.php?id=<?php echo $item['ID']?>"> <i class="bi bi-pencil-fill"></i></a>
+            <a class="text-danger" href="borrar_curso.php?id=<?php echo $item['ID']?>"> <i class="bi bi-trash-fill"></i></a>
           </td>
 
 
@@ -109,6 +109,7 @@ require('header.php');
 
     </body>
   </table>
+  
 </div>
 
 <?php
