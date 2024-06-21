@@ -34,7 +34,7 @@ require('header.php');
 <?php session_unset();
 } ?>
 
-<form action="agregar_curso.php" method="POST">
+<form action="agregar_curso.php" method="POST" enctype="multipart/form-data">
 
 
   <table class="table">
