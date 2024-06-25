@@ -20,7 +20,9 @@ require('header.php');
 <?php else : ?>
 
   <h1>No has iniciado sesion</h1>
-  <a href="./index.php">Iniciar sesion</a>
+  <button class="btn btn-success">
+    <a href="./index.php">Iniciar sesion</a>
+  </button>
 
 
 <?php endif   ?>

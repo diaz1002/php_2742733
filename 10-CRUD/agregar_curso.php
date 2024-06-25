@@ -2,7 +2,7 @@
 
 if ($_SERVER["REQUEST_METHOD"] == 'POST') {
 
-    echo "Datos enviados";
+    echo "Datos enviados"; 
 
     $TituloCurso = $_POST['TituloCurso'];
 
